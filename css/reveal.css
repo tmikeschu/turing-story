@@ -1166,7 +1166,6 @@ body {
 .reveal .overlay .viewport {
   position: absolute;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   top: 40px;
@@ -1363,3 +1362,31 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+body {
+  animation: colorchange 50s infinite;
+  -webkit-animation: colorchange 50s infinite; }
+
+@keyframes colorchange {
+  0% {
+    background: #C22121; }
+  25% {
+    background: #FFB733; }
+  50% {
+    background: #047878; }
+  75% {
+    background: #F57336; }
+  100% {
+    background: #7F1637; } }
+
+@-webkit-keyframes colorchange {
+  0% {
+    background: #C22121; }
+  25% {
+    background: #FFB733; }
+  50% {
+    background: #047878; }
+  75% {
+    background: #F57336; }
+  100% {
+    background: #7F1637; } }
